@@ -1,1 +1,1 @@
-# EulerBricks
+# EulerBrick
