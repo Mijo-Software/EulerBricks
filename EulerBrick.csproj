@@ -15,8 +15,8 @@
     <PackageLicenseFile>C:\Users\mj-pr\OneDrive\Documents\unlicense.txt</PackageLicenseFile>
     <Authors>Mijo Software</Authors>
     <PackageProjectUrl>https://mijo-software.de</PackageProjectUrl>
-    <PackageReleaseNotes>1.0.2.3</PackageReleaseNotes>
-    <Version>1.0.2.3</Version>
+    <PackageReleaseNotes>1.1.0.4</PackageReleaseNotes>
+    <Version>1.1.0.4</Version>
     <IsPublishable>False</IsPublishable>
   </PropertyGroup>
 

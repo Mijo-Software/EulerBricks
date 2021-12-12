@@ -1,9 +1,19 @@
-﻿ulong
+﻿//string length;
+
+ulong
     n = 0, i = 0,
     a_min = 1, b_min = 1, c_min = 1,
     a_max = 1000, b_max = 1000, c_max = 1000;
 
 double d, e, f, g;
+
+Console.WriteLine("EulerBrick");
+Console.Write("Input the length of the run: ");
+string length = Console.ReadLine();
+if (ulong.TryParse(s: length, result: out a_max))
+{
+    b_max = c_max = a_max;
+}
 
 for (ulong a = a_min; a < a_max; a++)
 {
