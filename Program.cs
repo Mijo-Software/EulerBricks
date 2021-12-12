@@ -21,13 +21,11 @@ for (ulong a = a_min; a < a_max; a++)
                     if ((f % 1) == 0)
                     {
                         n++;
-                        Console.WriteLine(value: $"{n} = {{a: {a}, b: {b}, c: {c}}}");
-
+                        Console.WriteLine(value: $"{n} = {{a: {a}, b: {b}, c: {c}}}{{d: {Math.Round(a: (double)d)}, e: {Math.Round(a: (double)e)}, f: {Math.Round(a: (double)f)}}}");
                         g = Math.Sqrt(d: Math.Pow(x: a, y: 2) + Math.Pow(x: b, y: 2) + Math.Pow(x: c, y: 2));
                         if ((g % 1) == 0)
                         {
-                            //n++;
-                            Console.WriteLine(value: $"{n} = {{a: {a}, b: {b}, c: {c}; d: {Math.Round(a: (double)g)}}}");
+                            Console.WriteLine(value: $"{n} = {{a: {a}, b: {b}, c: {c}}}{{d: {Math.Round(a: (double)d)}, e: {Math.Round(a: (double)e)}, f: {Math.Round(a: (double)f)}}}{{g: {Math.Round(a: (double)g)}");
                         }
                     }
                 }
