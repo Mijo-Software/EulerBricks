@@ -1,3 +1,3 @@
-# EulerBrick
+# EulerBricks
 
 Generates Euler bricks.
