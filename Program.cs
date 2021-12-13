@@ -15,7 +15,9 @@
 
             Console.WriteLine(value: "EulerBricks");
             Console.Write(value: "Input the length of the run (default=1000, hit ENTER): ");
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type
             string length = Console.ReadLine();
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type
             if (ulong.TryParse(s: length, result: out a_max))
             {
                 b_max = c_max = a_max;
